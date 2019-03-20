@@ -69,7 +69,7 @@ var addValue = function (gems) {
 var checkWin = function () {
 
     if (currentScore > targetScore) {
-        alert("Sorry you suck!");
+        alert("Sorry you lost!");
 
         console.log('you lost');
 
@@ -80,7 +80,7 @@ var checkWin = function () {
         startGame();
     }
     else if (currentScore == targetScore) {
-        alert('Congratz you still suck!')
+        alert('Congratz you win!')
 
         console.log('you win');
 
