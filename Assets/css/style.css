@@ -1,0 +1,13 @@
+.row {
+ display: inline;   
+}
+
+.instruct {
+    float: left;
+    padding: 400px;
+}
+
+.col-3 {
+    float: left;
+    padding: 40px;
+}
