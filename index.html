@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Unit-4-Game</Unit-4-Game>
+    </title>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Gem Collector 7</h1>
+
+
+            <p>You will be give a random number at the start of the game.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
+
+            <p> value of each crystal is hidden from you until you click on it.</p>
+
+            <p> time when the game starts, the game will change the values of each Gem.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <h5 class="card-title">Number to Guess</h5>
+        <div class="card-body" id="targetScore"></div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">wins</h5>
+            <div id="winCount">0</div>
+            <h5>loses</h5>
+            <div id="loseCount">0</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm">
+                <button id="first">
+                    <img src="Assets/images/abstract-q-c-200-200-1.jpg" alt="Placeholder" class="img-thumbnail">
+                </button>
+            </div>
+
+            <div class="col-sm">
+                <button id="second">
+                    <img src="Assets/images/abstract-q-c-200-200-4.jpg" alt="Placeholder" class="img-thumbnail">
+                </button>
+            </div>
+
+            <div class="col-sm">
+                <button id="third">
+                    <img src="Assets/images/abstract-q-c-200-200-5.jpg" alt="Placeholder" class="img-thumbnail">
+                </button>
+            </div>
+            <div class="col-sm">
+                <button id="fourth">
+                    <img src="Assets/images/abstract-q-c-200-200-6.jpg" alt="Placeholder" class="img-thumbnail">
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Resualts:</h5>
+            <div id="total">0
+
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script src="Assets/javascript/game.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</body>
+
+</html>
